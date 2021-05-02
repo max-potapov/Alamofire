@@ -26,15 +26,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "Alamofire",
+    name: "Alamofire4",
     products: [
         .library(
-            name: "Alamofire",
-            targets: ["Alamofire"])
+            name: "Alamofire4",
+            targets: ["Alamofire4"])
     ],
     targets: [
         .target(
-            name: "Alamofire",
+            name: "Alamofire4",
             path: "Source")
     ],
     swiftLanguageVersions: [.v4, .v5]
